@@ -3,8 +3,10 @@ This Simple and Small Python Script converts any Book into AudioBook with prefer
 
 # Install files-
 
+```python
 pip install pyttsx3 <br/>
-**pip install PyPDF2
+pip install PyPDF2
+```
 
 # Download any PDF book-
 You may use any .pdf extension book and make it a audiobook.
