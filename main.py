@@ -2,7 +2,7 @@ import pyttsx3
 import PyPDF2
 from pyttsx3 import engine
 engine = pyttsx3.init()
-book = open('monk.pdf', 'rb')
+book = open('your_book_name.pdf', 'rb')   #This is the only Change you have to make in whole code,Change your_book_name with your actual book name 
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
 rate = engine.getProperty('rate')   # getting details of current speaking rate
